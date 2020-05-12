@@ -1,0 +1,72 @@
+/* белый #FFFFFF */
+
+/* первичный фон #E5E5E5 */
+
+/* вторичный фон #F5F4FA */
+
+/* цаецветт основного текста #212121 */
+
+/* вторичный цвет текста #757575 */
+
+/* акцент #2196F3 */
+
+/* иконки серый #AFB1B8 */
+
+/* соцсети футера серый rgba(255, 255, 255, 0.1) */
+
+/* фон иконок приемущества #F5F4FA */
+
+/* цвет текста контактов футера rgba(255, 255, 255, 0.6) */
+
+/* цвет вторичного теста футера rgba(255, 255, 255, 0.4) */
+
+body {
+  color: #757575;
+  background-color: #e5e5e5;
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: #2196f3;
+}
+.logo-secondary-color {
+  color: #000000;
+}
+.logo-secondary-color:hover {
+  color: #2196f3;
+}
+
+/* site nav */
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* auth nav */
+
+.auth-nav {
+}
+
+/* hero */
+
+.hero {
+}
+
+.hero-title {
+}
+
+/* section */
+
+.section {
+}
+.section-title {
+  color: #212121;
+}
+h3 {
+  color: #212121;
+}
