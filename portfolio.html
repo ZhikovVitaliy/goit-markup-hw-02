@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
@@ -15,20 +19,20 @@
           Web <span class="logo-secondary-color">Studio</span></a
         >
 
-        <ul>
-          <li><a href="./index.html">Студия</a></li>
-          <li><a href="./portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Студия</a></li>
+          <li><a href="" class="link current">Портфолио</a></li>
+          <li><a href="" class="link">Контакты</a></li>
         </ul>
 
-        <ul>
+        <ul class="auth-nav">
           <li>
-            <a class="contacts-link" href="mailto:info@devstudio.com">
+            <a class="header-link" href="mailto:info@devstudio.com">
               info@devstudio.com
             </a>
           </li>
           <li>
-            <a class="contacts-link" href="tel:38 0961111111">
+            <a class="header-link" href="tel:38 0961111111">
               +38 096 111 11 11
             </a>
           </li>
@@ -39,17 +43,17 @@
     <main>
       <h1>Портфолио</h1>
       <ul>
-        <li><button type="button">Все</button></li>
-        <li><button type="button">Веб-сайты</button></li>
-        <li><button type="button">Приложения</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+        <li><button type="button" class="button">Все</button></li>
+        <li><button type="button" class="button">Веб-сайты</button></li>
+        <li><button type="button" class="button">Приложения</button></li>
+        <li><button type="button" class="button">Дизайн</button></li>
+        <li><button type="button" class="button">Маркетинг</button></li>
       </ul>
 
       <ul>
         <li>
           <a href=""
-            ><h2>Технокряк</h2>
+            ><h2 class="title">Технокряк</h2>
             <p>Веб-сайт</p>
             <img
               src="./images/portfolio/цифровой_шпионаж.jpg"
@@ -65,7 +69,7 @@
         </li>
         <li>
           <a href=""
-            ><h2>Постер New Orlean vs Golden Stars</h2>
+            ><h2 class="title">Постер New Orlean vs Golden Stars</h2>
             <p>Дизайн</p>
             <img
               src="./images/portfolio/игроки_в_баскетбол.jpg"
@@ -81,7 +85,7 @@
         </li>
         <li>
           <a href=""
-            ><h2>Ресторан Seafood</h2>
+            ><h2 class="title" class="title">Ресторан Seafood</h2>
             <p>Приложение</p>
             <img
               src="./images/portfolio/логотип_с_рыбой.jpg"
@@ -97,7 +101,7 @@
         </li>
         <li>
           <a href=""
-            ><h2>Проект Prime</h2>
+            ><h2 class="title">Проект Prime</h2>
             <p>Маркетинг</p>
             <img
               src="./images/portfolio/наушники.jpg"
@@ -113,7 +117,7 @@
         </li>
         <li>
           <a href=""
-            ><h2>Проект Boxes</h2>
+            ><h2 class="title">Проект Boxes</h2>
             <p>Приложение</p>
             <img
               src="./images/portfolio/две_коробки.jpg"
@@ -129,7 +133,7 @@
         </li>
         <li>
           <a href=""
-            ><h2>Inspiration has no Borders</h2>
+            ><h2 class="title">Inspiration has no Borders</h2>
             <p>Веб-сайт</p>
             <img
               src="./images/portfolio/монитор.jpg"
@@ -145,7 +149,7 @@
         </li>
         <li>
           <a href=""
-            ><h2>Издание Limited Edition</h2>
+            ><h2 class="title">Издание Limited Edition</h2>
             <p>Дизайн</p>
             <img src="./images/portfolio/журнал.jpg" alt="журнал" width="380" />
             <p>
@@ -157,7 +161,7 @@
         </li>
         <li>
           <a href=""
-            ><h2>Проект LAB</h2>
+            ><h2 class="title">Проект LAB</h2>
             <p>Маркетинг</p>
             <img src="./images/portfolio/ярлык.jpg" alt="ярлык" width="380" />
             <p>
@@ -169,7 +173,7 @@
         </li>
         <li>
           <a href=""
-            ><h2>Growing Business</h2>
+            ><h2 class="title">Growing Business</h2>
             <p>Приложение</p>
             <img
               src="./images/portfolio/ноутбук.jpg"
@@ -188,27 +192,32 @@
 
     <!-- Футер -->
     <footer>
-      <a href="/">
-        Web Studio
-      </a>
-      <address>г. Киев, пр-т Леси Украинки, 26</address>
+      <div>
+        <a href="./index.html" class="footer-logo">
+          Web <span class="footer-logo-secondary-color">Studio</span></a
+        >
+        <address>г. Киев, пр-т Леси Украинки, 26</address>
 
-      <address>
-        <a class="contacts-link" href="mailto:info@example.com"
-          >info@example.com</a
-        ><br />
-        <a class="contacts-link" href="tel:380991111111">+38 099 111 11 11</a>
-      </address>
+        <address>
+          <a class="footer-contacts-link" href="mailto:info@example.com"
+            >info@example.com</a
+          ><br />
+          <a class="footer-contacts-link" href="tel:380991111111"
+            >+38 099 111 11 11</a
+          >
+        </address>
+      </div>
 
-      <b>присоединяйтесь</b>
+      <div>
+        <b>присоединяйтесь</b>
 
-      <ul>
-        <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
-        <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
-        <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
-        <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
-      </ul>
-
+        <ul>
+          <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
+          <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
+          <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
+          <li><a href="" aria-label="Ссылка на LinkedIn">LinkedIn</a></li>
+        </ul>
+      </div>
       <b>подписаться на рассылку</b>
 
       <p>2020 | Developed by GoIT Students</p>
