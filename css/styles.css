@@ -49,7 +49,7 @@ ul {
 .logo {
   color: var(--accent-color);
   font-family: Raleway, cursive;
-
+  text-decoration: none;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -70,6 +70,7 @@ ul {
 
 .site-nav .link {
   color: var(--title-text-color);
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -89,6 +90,7 @@ ul {
 
 .header-link {
   color: var(--primary-text-color);
+  text-decoration: none;
 }
 .header-link:hover,
 .header-link:focus {
@@ -126,6 +128,9 @@ ul {
   text-align: center;
   color: var(--title-text-color);
 }
+.bg-team {
+  background-color: var(--primary-bg-color);
+}
 .section-p {
   font-weight: normal;
   font-size: 14px;
@@ -135,6 +140,7 @@ ul {
   color: var(--title-text-color);
 }
 .doing {
+  text-decoration: none;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -147,13 +153,32 @@ h3 {
   color: var(--title-text-color);
 }
 
+/* team */
+.section-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+/* portfolio */
+
+.portfolio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
 /* footer */
 footer {
+  font-style: normal;
   color: var(--white-color);
   background-color: var(--footer-bg-color);
 }
 
 .footer-logo {
+  text-decoration: none;
   color: var(--accent-color);
   font-size: 22px;
   line-height: 1.2;
@@ -165,12 +190,24 @@ footer {
 .footer-logo-secondary-color:hover {
   color: var(--accent-color);
 }
+.footer-address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
 .footer-contacts-link {
+  text-decoration: none;
   color: var(--footer-contacts-text-color);
 }
 .footer-contacts-link:hover,
 .footer-contacts-link:focus {
   color: var(--accent-color);
+}
+.copyright {
+  color: var(--footer-secondary-test-color);
+  font-size: 12px;
+  line-height: 2;
 }
 
 .button {
